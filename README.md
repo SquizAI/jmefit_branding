@@ -9,15 +9,38 @@
 
 This repository contains the branding and marketing strategy for JMEFIT, a fitness and nutrition coaching brand led by Jaime Tharpe, a certified nutrition and fitness coach with hormone specialization and 17 years of experience in the industry.
 
-## Repository Contents
+## Repository Structure
 
-- **[Brand Map](jamie_fit_brand_map.md)**: Comprehensive overview of JMEFIT's brand identity, target audience, and marketing strategy
-- **[Fitness Marketing Research](fitness_marketing_research_2025.md)**: In-depth research on current fitness and nutrition industry trends
-- **[Research Plan](research_plan.md)**: Initial research plan for developing the marketing strategy
-- **[Brand Identity Diagram](brand_identity_diagram.md)**: Visual representation of JMEFIT's core values and brand personality
-- **[Target Audience Map](target_audience_map.md)**: Detailed breakdown of JMEFIT's primary and secondary audiences
-- **[Content Strategy Flowchart](content_strategy_flowchart.md)**: Visual guide to content pillars and distribution strategy
-- **[Marketing Channels Diagram](marketing_channels_diagram.md)**: Overview of key marketing channels and their interconnections
+```
+├── docs/                  # Documentation files
+│   ├── brand/            # Brand identity documents
+│   ├── research/         # Market research documents
+│   └── strategy/         # Marketing strategy documents
+├── images/               # Image assets
+│   └── generated/        # AI-generated images using Ideogram
+├── src/                  # Source code
+│   └── api/              # API integration scripts
+└── .env                  # Environment variables (not tracked in git)
+```
+
+## Documentation
+
+### Brand Identity
+- **[Brand Map](docs/brand/jamie_fit_brand_map.md)**: Comprehensive overview of JMEFIT's brand identity, target audience, and marketing strategy
+- **[Brand Identity Diagram](docs/brand/brand_identity_diagram.md)**: Visual representation of JMEFIT's core values and brand personality
+- **[Target Audience Map](docs/brand/target_audience_map.md)**: Detailed breakdown of JMEFIT's primary and secondary audiences
+
+### Market Research
+- **[Fitness Marketing Research](docs/research/fitness_marketing_research_2025.md)**: In-depth research on current fitness and nutrition industry trends
+- **[Research Plan](docs/research/research_plan.md)**: Initial research plan for developing the marketing strategy
+
+### Marketing Strategy
+- **[Content Strategy Flowchart](docs/strategy/content_strategy_flowchart.md)**: Visual guide to content pillars and distribution strategy
+- **[Marketing Channels Diagram](docs/strategy/marketing_channels_diagram.md)**: Overview of key marketing channels and their interconnections
+
+## Image Generation
+
+This repository includes AI image generation capabilities using the Ideogram API via fal.ai. You can generate custom images for JMEFIT's branding and marketing materials.
 
 ## Brand Overview
 
@@ -33,6 +56,31 @@ JMEFIT is focused on providing sustainable fitness and nutrition approaches, par
 ## Target Audience
 
 JMEFIT primarily serves women aged 35-55 who are experiencing body changes due to age and hormonal shifts, have been frustrated with previous diet/exercise programs, and are seeking sustainable approaches to fitness and nutrition.
+
+## Using the Image Generator
+
+This repository includes a tool to generate custom images for JMEFIT branding using the Ideogram AI API:
+
+```bash
+# Install dependencies
+npm install
+
+# Run the interactive image generator
+node src/index.js
+
+# Or generate a specific image directly
+npm run generate-image -- --prompt "Your detailed prompt here" --category "brand"
+```
+
+Generated images will be saved in the `images/generated/` directory, organized by category.
+
+## Getting Started
+
+1. Clone this repository
+2. Create a `.env` file with your FAL_API_KEY (if not already present)
+3. Install dependencies: `npm install`
+4. Explore the documentation in the `docs/` directory
+5. Generate custom images using the image generator
 
 ---
 

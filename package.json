@@ -1,0 +1,31 @@
+{
+  "name": "jmefit-branding",
+  "version": "1.0.0",
+  "description": "JMEFIT branding and marketing strategy with image generation capabilities",
+  "main": "src/index.js",
+  "scripts": {
+    "generate-image": "node src/api/generate-image.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SquizAI/jmefit_branding.git"
+  },
+  "keywords": [
+    "fitness",
+    "branding",
+    "marketing",
+    "image-generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SquizAI/jmefit_branding/issues"
+  },
+  "homepage": "https://github.com/SquizAI/jmefit_branding#readme",
+  "dependencies": {
+    "@fal-ai/serverless-client": "^0.7.1",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "yargs": "^17.7.2"
+  }
+}
