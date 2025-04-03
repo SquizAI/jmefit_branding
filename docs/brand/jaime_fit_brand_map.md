@@ -92,7 +92,7 @@ Jaime Fit differentiates itself in the crowded fitness market through:
 - **Educational Content**: Information about hormones, nutrition, and fitness principles
 - **Workout Demonstrations**: Proper form and exercise variations for different fitness levels
 - **Client Success Stories**: Real transformations highlighting sustainable changes
-- **Behind-the-Scenes**: Personal insights into Jamie's own fitness journey and approach
+- **Behind-the-Scenes**: Personal insights into Jaime's own fitness journey and approach
 - **Q&A Sessions**: Addressing common questions and concerns from the audience
 
 ### Platform Strategy

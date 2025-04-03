@@ -26,7 +26,7 @@ This repository contains the branding and marketing strategy for JMEFIT, a fitne
 ## Documentation
 
 ### Brand Identity
-- **[Brand Map](docs/brand/jamie_fit_brand_map.md)**: Comprehensive overview of JMEFIT's brand identity, target audience, and marketing strategy
+- **[Brand Map](docs/brand/jaime_fit_brand_map.md)**: Comprehensive overview of JMEFIT's brand identity, target audience, and marketing strategy
 - **[Brand Identity Diagram](docs/brand/brand_identity_diagram.md)**: Visual representation of JMEFIT's core values and brand personality
 - **[Target Audience Map](docs/brand/target_audience_map.md)**: Detailed breakdown of JMEFIT's primary and secondary audiences
 

@@ -1,4 +1,4 @@
-# Jamie Fit Marketing Research 2025
+# Jaime Fit Marketing Research 2025
 
 ## Table of Contents
 1. [Current Fitness & Nutrition Industry Trends](#current-fitness--nutrition-industry-trends)
